@@ -1,0 +1,35 @@
+{
+  "name": "adopt-me",
+  "version": "1.0.0",
+  "description": "A React web application for Adopting Animals (Beginner) - Frontendmasters",
+  "main": "src/App.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonimonish00/adopt-me.git"
+  },
+  "keywords": [],
+  "author": "Monish Soni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sonimonish00/adopt-me/issues"
+  },
+  "homepage": "https://github.com/sonimonish00/adopt-me#readme",
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-prettier": "^8.5.0",
+    "parcel": "^2.5.0",
+    "prettier": "^2.6.2"
+  },
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "browserslist": [
+    "last 2 Chrome versions"
+  ]
+}

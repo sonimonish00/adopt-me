@@ -1,30 +1,27 @@
-const e = React.createElement;
-const Pet = (props) => {
-  return e("div", {}, [
-    e("h1", {}, props.name),
-    e("h2", {}, props.animal),
-    e("h2", {}, props.breed),
-  ]);
-};
+import React from 'react';
+import ReactDOM from 'react-dom';
+// Alternative - import { createRoot } from 'react-dom/client'; // Then remove ReactDOM Below
+import Pet from './Pet';
 
+const e = React.createElement;
 const App = () => {
   // createElement(element, props/attribs of elements, child of elements)
   return e("div", {}, [
     e("h1", {}, "Adopt Me!"),
-    e(Pet,{
-      name : "Luna",
-      animal : "Dog",
-      breed : "Havanese"
+    e(Pet, {
+      name: "Luna",
+      animal: "Dog",
+      breed: "Havanese",
     }),
-    e(Pet,{
-      name : "Pepper",
-      animal : "Bird",
-      breed : "Cockatiel"
+    e(Pet, {
+      name: "Pepper",
+      animal: "Bird",
+      breed: "Cockatiel",
     }),
-    e(Pet,{
-      name : "Doink",
-      animal : "Cat",
-      breed : "Mix"
+    e(Pet, {
+      name: "Doink",
+      animal: "Cat",
+      breed: "Mix",
     }),
   ]);
 };

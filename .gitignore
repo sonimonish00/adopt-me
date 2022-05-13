@@ -1,3 +1,8 @@
+# Extras - Fronendmaster (https://btholt.github.io/complete-intro-to-react-v7/lessons/js-tools/git)
+.parcel-cache/
+.vscode/
+.DS_Store
+
 # Logs
 logs
 *.log
@@ -40,7 +45,6 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
-
 # TypeScript v1 declaration files
 typings/
 
