@@ -77,6 +77,12 @@ Start the server (Add main: App.js if doesn't work) [see commit]
 ```bash
   npm run dev
 ```
+Command for Running Again Parcel (by Clearing cache & Deleting node modules - skip node modules if u just wanna clear cache)
+
+```bash
+ rm -rf .parcel-cache dist node_modules && npm i 
+ npm run dev (This is for localhost)
+```
 
 
 ## Tech Stack
